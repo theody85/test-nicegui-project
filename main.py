@@ -1,4 +1,4 @@
-from nicegui import ui, app
+from nicegui import ui
 from sections import footer
 
 # using CSS
@@ -22,6 +22,5 @@ footer.render()
 
 
 
-# IMPORTANT: only run the server if executed directly or under multiprocessing
-if __name__ in {"__main__", "__mp_main__"}:
-    ui.run()
+
+ui.run()
