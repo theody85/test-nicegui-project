@@ -30,6 +30,5 @@ with ui.column():
 footer.render()
 
 
-# Always call ui.run(), but use this condition for multiprocessing
-if __name__ in {"__main__", "__mp_main__"}:
-    ui.run()
+
+ui.run()
