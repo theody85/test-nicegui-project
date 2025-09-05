@@ -1,4 +1,4 @@
-from nicegui import ui
+from nicegui import ui, app
 from sections import footer
 
 # using CSS
